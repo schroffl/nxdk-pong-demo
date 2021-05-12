@@ -1,4 +1,16 @@
-# nxdk-pong-demo
+<h2 align="center">nxdk-pong-demo</h2>
+<p align="center">
+A very crude implementation of the classic pong game. It's written in C and makes use of the <a href="https://github.com/XboxDev/nxdk">nxdk</a>.
+</p>
+
+<p align="center">
+ <img src="recording.gif" />
+</p>
+
+***
+
+## Running the demo
+
 To run the demo you will need an Xbox Emulator (like [moborgerson/Xemu](https://github.com/mborgerson/xemu)).
 The setup can be a little ugly, but with a little googling it doesn't take too long ;)
 
@@ -10,9 +22,7 @@ The controls are a little weird, because I didn't get the emulator to recognise 
   
 With Xemu I was able to use my keyboard as a very basic controller where the arrow keys are mapped to the DPad.
 
-![Screenshot of the .iso running in the Xemu emulator](./screenshot.png)
-
-# Building the .iso
+## Building the .iso
 I use Docker for building, because I couldn't be bothered to install all the nxdk dependencies on my computer.
 If you choose to do the same thing, just follow these steps:
 
