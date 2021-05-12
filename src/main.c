@@ -319,7 +319,7 @@ static void draw_with_matrix(unsigned int mode, int start, int count, float matr
     /* Set vertex position attribute */
     set_attrib_pointer(0, NV097_SET_VERTEX_DATA_ARRAY_FORMAT_TYPE_F,
             3, sizeof(Vertex), verts);
-    draw_arrays(NV097_SET_BEGIN_END_OP_TRIANGLE_FAN, 0, num_vertices);
+    draw_arrays(mode, start, count);
 }
 
 static void draw_ball(Vec2 pos) {
