@@ -1,5 +1,4 @@
 struct vIn {
-	float4 color    : DIFFUSE;
 	float4 position : POSITION;
 };
 
