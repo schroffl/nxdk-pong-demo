@@ -2,6 +2,8 @@
 To run the demo you will need an Xbox Emulator (like [moborgerson/Xemu](https://github.com/mborgerson/xemu)).
 The setup can be a little ugly, but with a little googling it doesn't take too long ;)
 
+You can download a pre-built `.iso` from the [GitHub releases page](https://github.com/schroffl/nxdk-pong-demo/releases).
+
 The controls are a little weird, because I didn't get the emulator to recognise my Playstation controller.
   * `DPad Up/Down` are for the left player
   * `DPad Left/Right` are for the right player.
