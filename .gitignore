@@ -1,0 +1,6 @@
+src/bin
+src/*.iso
+src/*.exe
+src/*.obj
+src/*.inl
+src/*.c.d
