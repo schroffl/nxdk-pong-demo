@@ -23,6 +23,7 @@ The controls are a little weird, because I didn't get the emulator to recognise 
 With Xemu I was able to use my keyboard as a very basic controller where the arrow keys are mapped to the DPad.
 
 ## Building the .iso
+### with Docker
 I use Docker for building, because I couldn't be bothered to install all the nxdk dependencies on my computer.
 If you choose to do the same thing, just follow these steps:
 
@@ -33,9 +34,8 @@ If you choose to do the same thing, just follow these steps:
 
 It might take a while when you run this for the first time.
 
-***
-
-If you don't want to use Docker, you will need to install nxdk along with all its dependencies.
+### without Docker
+If you don't want to use Docker, you will need to install [nxdk](https://github.com/XboxDev/nxdk) along with all its dependencies.
 Before running `make` you will also need to specify the nxdk installation directory.
 By default, the pong demo expects it to be in the same directory where the repository itself is located – like this:
 
